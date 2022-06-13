@@ -1,11 +1,14 @@
+import {Link} from "react-router-dom"
+
 export default function NavBar(){
     return(
         <header className="App-header">
         <nav>
-          <img src="" alt="logo"></img>
+          <a href="/"><img src="" alt="logo"></img></a>
           <ul className="mainNav">
-            <li><a href="/choosing">Choosing a College</a></li>
-            <li><a href="/admissions">College Admissions</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/choose">Choosing a College</Link></li>
+            <li><a href="/admission">College Admissions</a></li>
             <li><a href="/finaid">Paying for College</a></li>
             <li><a href="/housing">Housing</a></li>
             <li><a href="/resources">College Resources</a></li>

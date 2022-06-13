@@ -12,17 +12,21 @@ nav{
 .mainNav{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   background-color: #007488;
   height:3em;
   margin-top: 0;
-  width:55%;
+  width:60%;
 }
 .mainNav li{
   list-style-type: none;
   margin: 0 2%;
   color:white;
+}
+.mainNav li:first-child{
+  margin-left:0;
+  text-align: left;
 }
 .mainNav li a{
   color:white;
@@ -30,6 +34,7 @@ nav{
   text-decoration: none;
   width:100%;
 }
+
 .mainNav li a:hover{
   color:#f18352;
 }
