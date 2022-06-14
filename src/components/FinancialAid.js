@@ -1,7 +1,8 @@
+import NavigationButton from "./Button"
 export default function FinancialAid(){
     return(
-        <div>
-            <h1>Paying for College</h1>
+        <div className="finaid">
+            <h1 className="pageTitle">Paying for College</h1>
             <h2>Scholarships</h2>
             <h2>Financial Aid</h2>
             <h3>Grants</h3>
@@ -16,6 +17,9 @@ export default function FinancialAid(){
             <h5>Waivers</h5>
             <h6>Foster Care/Adoption Waiver</h6>
             <h6>Veterans</h6>
+            <div className="button">
+                <NavigationButton prop="/choose"/>
+            </div>
         </div>
     )
 }

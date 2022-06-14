@@ -1,7 +1,8 @@
+import NavigationButton from "./Button"
 export default function Resources(){
     return(
-        <div>
-            <h1>College Resources</h1>
+        <div className="resources">
+            <h1 className="pageTitle">College Resources</h1>
             <h2>Parking and Transportation</h2>
             <h2>Textbooks</h2>
             <h2>Advising</h2>
@@ -9,6 +10,9 @@ export default function Resources(){
             <h2>Career Counseling</h2>
             <h2>Transfer Resources</h2>
             <h2>Campus Organizations</h2>
+            <div className="button">
+                <NavigationButton prop="/choose"/>
+            </div>
         </div>
 
     )

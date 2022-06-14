@@ -3,7 +3,7 @@ import NavigationButton from "./Button";
 export default function ChooseCollege(){
     return(
         <div className="chooseCollege">
-            <h1>Choosing the Best Fit College for You</h1>
+            <h1 className="pageTitle">Choosing the Best College for You</h1>
             <p>Deciding which college to spend your next 2-4 years with is a BIG decision. 
                 Understanding important aspects___ that can impact your college experience is ...
                 But that's why we're here. I recommend creating either a spreadsheet or __________ 

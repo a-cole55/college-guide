@@ -104,7 +104,10 @@ button {
   display:flex;
   justify-content: flex-end;
  }
- .chooseCollege{
+ .pageTitle{
+  font-size: 66px;
+ }
+ .chooseCollege, .admissions, .finaid, .housing, .resources{
   padding:2% 10% 5% 10%;
  }
  
