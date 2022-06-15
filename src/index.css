@@ -110,4 +110,7 @@ button {
  .chooseCollege, .admissions, .finaid, .housing, .resources{
   padding:2% 10% 5% 10%;
  }
+ .navigation{
+  text-decoration: none;
+ }
  

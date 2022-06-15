@@ -9,7 +9,7 @@ export default function Home(){
           <span>Blah. Blah. Blah.</span>
         </div>
         <img src={HomeLogo} alt="homeLogo"></img>
-        <NavigationButton />
+        <a className="navigation" href="/choose"><NavigationButton /></a>
       </div>
     )
 }
