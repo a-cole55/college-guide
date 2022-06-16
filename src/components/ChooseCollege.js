@@ -40,7 +40,7 @@ export default function ChooseCollege(){
             <h2>Size</h2>
             <h2>Diversity</h2>
             <div className="button">
-                <NavigationButton prop="/choose"/>
+                <a href="/admission"><NavigationButton /></a>
             </div>
         </div>
     )

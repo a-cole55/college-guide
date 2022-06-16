@@ -4,7 +4,7 @@ export default function Admission(){
         <div className="admissions">
             <h1 className="pageTitle">Applying to College</h1>
             <div className="button">
-                <NavigationButton prop="/choose"/>
+            <a href="/finaid"><NavigationButton /></a>
             </div>
         </div>
 
