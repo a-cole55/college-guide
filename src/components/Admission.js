@@ -25,11 +25,20 @@ export default function Admission(){
                     several different colleges.
                     Also, Texas schools offer automatic admission for students that graduate in the top 10% of their class. More info <a href="http://www.collegeforalltexans.com/?objectid=6D0B8C2F-C987-12B0-27CAFED91FACC7FB">here</a>.
                 </p>
-                <li><strong>Step 3:</strong> Pay Application Fee:</li> There is typically an application fee to apply to a school, costs range from about
-                $25-$50 depending on the school. If you received free/reduced lunch in high school, you may qualify for a application fee waiver.
+                <li><strong>Step 3:</strong> Pay Application Fee:</li> There is typically an application fee to apply to a college, costs range from about
+                $25-$50 depending on the school. This fee is paid directly to the college. If you received free/reduced lunch in high school, you may qualify for a application fee waiver. Also if you were 
+                qualified for a fee waiver for the ACT/SAT, you could have your college application fees waived as well. More information below.
                 Feel free to reach out to your high school counselor or college's admission counselor for more information.
-                For more information on Texas application fee waivers, click here: 
+                Here are a few good resources for more information as well:
+                <ul>
+                    <li><a href="https://blog.prepscholar.com/college-application-fee-waiver">https://blog.prepscholar.com/college-application-fee-waiver</a></li>
+                    <li><a href="https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver">https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver</a></li>
+                    <li>If you take the SAT/ACT, there's a fee waiver for that as well! Just visit: <a href="https://satsuite.collegeboard.org/sat/registration/fee-waivers">SAT</a> or <a href="https://www.act.org/content/act/en/products-and-services/the-act/registration/fees/fee-waivers.html">ACT</a></li>
+                </ul>
+                <li><strong>Step 4:</strong> Submit transcripts and ACT/SAT scores (if required):</li>
+                {/* <li><strong>Step 1:</strong> Make a list of important college deadlines:</li> */}
             </ul>
+            <p>Some additional steps may be required depending on the school, so it's important to do your research and visit your college's website for additional details.</p>
             <div className="button">
             <a className="navigation" href="/finaid"><NavigationButton /></a>
             </div>
