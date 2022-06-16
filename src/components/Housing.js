@@ -8,7 +8,7 @@ export default function Housing(){
             <h2>Costs</h2>
             <h2>Deciding What's Best For You</h2>
             <div className="button">
-                <NavigationButton prop="/choose"/>
+            <a className="navigation" href="/resources"><NavigationButton /></a>
             </div>
         </div>
 

@@ -4,7 +4,7 @@ export default function Admission(){
         <div className="admissions">
             <h1 className="pageTitle">Applying to College</h1>
             <div className="button">
-            <a href="/finaid"><NavigationButton /></a>
+            <a className="navigation" href="/finaid"><NavigationButton /></a>
             </div>
         </div>
 

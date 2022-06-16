@@ -18,7 +18,7 @@ export default function FinancialAid(){
             <h6>Foster Care/Adoption Waiver</h6>
             <h6>Veterans</h6>
             <div className="button">
-            <a href="/housing"><NavigationButton /></a>
+            <a className="navigation" href="/housing"><NavigationButton /></a>
             </div>
         </div>
     )
