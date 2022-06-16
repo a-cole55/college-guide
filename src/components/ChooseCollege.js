@@ -37,7 +37,8 @@ export default function ChooseCollege(){
                     <li>Resource 3</li>
                 </ul>
             </p>
-            <h2>Size</h2>
+            <h2>Size</h2> Would you prefer larger class sizes or smaller class sizes? A large class can have as many as 200-500 students in one class
+            (example school, The University of Texas at Austin). A smaller class size can be as few as 15-20 students.
             <h2>Diversity</h2>
             <div className="button">
                 <a className="navigation" href="/admission"><NavigationButton /></a>
