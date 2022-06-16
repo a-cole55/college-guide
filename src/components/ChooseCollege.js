@@ -43,6 +43,10 @@ export default function ChooseCollege(){
             <div className="button">
                 <a className="navigation" href="/admission"><NavigationButton /></a>
             </div>
+            <footer>
+                <h6>Resources:</h6>
+                <a href="http://www.collegeforalltexans.com/index.cfm?objectid=6316E4DD-C14F-738B-0D78B8A1D99D9DC8">CollegeforAllTexas</a>
+            </footer>
         </div>
     )
 }
