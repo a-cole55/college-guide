@@ -113,4 +113,12 @@ button {
  .navigation{
   text-decoration: none;
  }
- 
+ .collegeSearchBar{
+  margin:1% 0;
+ }
+ .collegeSearchBar input{
+  margin-left:5px;
+ }
+ .collegeSearchBar label{
+  font-weight: bold;
+ }
