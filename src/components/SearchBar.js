@@ -11,7 +11,15 @@ export default function SearchBar({placeholder, data}){
                     <SearchIcon />
                 </div>
             </div>
-            <div className='dataResult'></div>
+            <div className='dataResult'>
+                {data.map((value, key) => {
+                    return (
+                    <a className="dataItem" href={value.url} target="_blank">
+                        <p>{value.name}</p>
+                    </a>
+                    );
+                })}
+            </div>
         </div>
     )
 }

@@ -43,7 +43,9 @@
     },
     {"name":	"Jacksonville State University",	"url":	"http://jsu.edu"
     },
-    {"name":	"L"url"een B. Wallace Community College",	"url":	"http://lbwcc.edu"
+    {
+        "name":	"Leen B. Wallace Community College",
+        "url":	"http://lbwcc.edu"
     },
     {"name":	"University of Montevallo",	"url":	"http://montevallo.edu"
     },
@@ -357,7 +359,7 @@
 },
 {"name":	"Harvey Mudd College",	"url":	"http://hmc.edu"
 },
-{"name":	"Holy "Name"s University",	"url":	"http://hnu.edu"
+{"name":	"Holy Names University",	"url":	"http://hnu.edu"
 },
 {"name":	"Humboldt State University",	"url":	"http://humboldt.edu"
 },
@@ -1409,11 +1411,17 @@
 },
 {"name":	"Lindsey Wilson College",	"url":	"http://lindsey.edu"
 },
-{"name":	"The University of Louisville",	"url":	"http://louisville.edu"
+{
+    "name":	"The University of Louisville",
+    "url":	"http://louisville.edu"
 },
-{"name":	"Midway College",	"url":	"http://midway.edu"
+{
+    "name":	"Midway College",
+    "url":	"http://midway.edu"
 },
-{"name":	"Morehead State University",	"url":	"http://moreheadstate.edu"
+{
+    "name":	"Morehead State University",
+    "url":	"http://moreheadstate.edu"
 },
 {"name":	"Murray State University",	"url":	"http://murraystate.edu"
 },
@@ -2273,7 +2281,7 @@
 },
 {"name":	"Atlantic Cape Community College",	"url":	"http://atlantic.edu"
 },
-{"name":	"B"url"ington County College",	"url":	"http://bcc.edu"
+{"name":	"Burlington County College",	"url":	"http://bcc.edu"
 },
 {"name":	"Bergen Community College",	"url":	"http://bergen.edu"
 },
@@ -3867,7 +3875,8 @@
 },
 {"name":	"Northern Wyoming Community College District",	"url":	"http://sheridan.edu"
 },
-{"name":	"University of Wyoming",	"url":	"http://uwyo.edu"
-},
-
+{
+    "name":	"University of Wyoming",
+    "url":	"http://uwyo.edu"
+}
 ]
