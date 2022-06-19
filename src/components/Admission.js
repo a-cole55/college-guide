@@ -1,5 +1,6 @@
 import NavigationButton from "./Button";
-import CollegeSearchBar from "./CollegeSearchBar";
+import SearchBar from "./SearchBar";
+// import CollegeData from "./CollegeData.json";
 
 export default function Admission(){
     return(
@@ -18,7 +19,7 @@ export default function Admission(){
                     </ul>
                 <li><strong>Step 2:</strong> Apply: The link to the college application can be found on the college admissions page. Enter the college
                 name here in the search bar:</li>
-                <CollegeSearchBar />
+                <SearchBar placeholder="Search College by Name"/>
                 <p>Special Note: If you are interested in attending a school in Texas, many Texas colleges use <a href="https://goapplytexas.org/">goapplytexas.org</a> for students to apply.
                     If the college(s) you plan to attend, use <a href="https://goapplytexas.org/">ApplyTexas</a> this is great because you can complete one college application and use it for 
                     several different colleges.
