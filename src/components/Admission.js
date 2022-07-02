@@ -12,10 +12,10 @@ export default function Admission(){
             <ul>
                 <li><strong>Step 1:</strong> Make a list of important college deadlines:</li>
                     <ul>
-                    <li>Application Deadline</li>
-                    <li>Scholarship Deadline</li>
-                    <li>Financial Aid Deadline</li>
-                    <li>Housing Application Deadline</li>
+                        <li>Application Deadline</li>
+                        <li>Scholarship Deadline</li>
+                        <li>Financial Aid Deadline</li>
+                        <li>Housing Application Deadline</li>
                     </ul>
                 <li><strong>Step 2:</strong> Apply: The link to the college application can be found on the college admissions page. Enter the college
                 name here in the search bar:</li>
