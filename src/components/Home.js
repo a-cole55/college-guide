@@ -6,9 +6,9 @@ export default function Home(){
         <div className="home">
         <div className="homeText">
           <h1>College Guide</h1>
-          <span>Blah. Blah. Blah.</span>
+          <span className="logo">If you can dream it, you can achieve it.</span>
         </div>
-        <img src={HomeLogo} alt="homeLogo"></img>
+        <img src={HomeLogo} alt="home logo"></img>
         <a className="navigation" href="/choose"><NavigationButton /></a>
       </div>
     )

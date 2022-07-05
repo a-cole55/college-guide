@@ -67,6 +67,11 @@ span{
 .home img{
   width:40%;
 }
+.logo{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
 /* From uiverse.io by @alexmaracinaru */
 button {
   cursor: pointer;
