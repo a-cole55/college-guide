@@ -1,8 +1,21 @@
 ul{
     width: 60%;
     display: inline;
+    margin-top: 0;
+}
+li {
+    list-style: none;
+    /* margin-bottom: 1%; */
 }
 img{
-    /* height: 50%; */
+    margin: 3% 0 0 2%;
+    height: 100%;
     float:right;
+    border-radius: 400px;
+}
+p, h2{
+    margin: 0 0 1% 0;
+}
+h2{
+    color:#232c64;
 }
