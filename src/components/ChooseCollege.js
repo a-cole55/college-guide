@@ -22,9 +22,9 @@ export default function ChooseCollege(){
             <h2>Costs</h2>
             <p>Costs probably should've been listed first because it is typically one of the biggest deciding
             factors. Most colleges/universities list your estimated costs and expenses (including tuition,
-            housing, textbooks, and personal expenses). I recommend making not of the perspective costs for each
+            housing, textbooks, and personal expenses). I recommend making note of the perspective costs for each
             college. Similar to the college comparison worksheet linked above, there are <a href="https://www.act.org/content/act/en/students-and-parents/college-planning-resources/paying-for-college/estimating-the-cost-of-college.html">
-            College Cost Comparison Templates</a> as well
+            College Cost Comparison Templates</a> as well.
             </p>
             <h2>2 or 4 Year College</h2>
             <p>Deciding between a 2 year or 4 year school is another factor to consider. If you are concerned about costs or 
@@ -55,14 +55,15 @@ export default function ChooseCollege(){
                 school for you that meets your criteria. Ask family and friends what other factors to consider. Your high school counselor is another
                 great resource!
             </p>
-
+            <h4>Additional Resources:</h4>
+            <li><strong>College for All Texans: </strong><a href="http://www.collegeforalltexans.com/index.cfm?objectid=6316E4DD-C14F-738B-0D78B8A1D99D9DC8">http://www.collegeforalltexans.com</a></li>
+            <li><strong>College Comparison Tool: </strong><a href="https://www.niche.com/colleges/compare/">https://www.niche.com/colleges/compare/</a></li>
+            <li><strong>College Comparison Worksheet: </strong><a href="https://www.excelstemplates.com/download?pid=20&tid=12">https://www.excelstemplates.com/download?pid=20&tid=12</a></li>
+            <li><strong>College Comparison Template (Online and Free): </strong><a href="https://www.act.org/content/act/en/students-and-parents/college-planning-resources/paying-for-college/estimating-the-cost-of-college.html">
+            https://www.act.org/content/act/en/students-and-parents/college-planning-resources/</a></li>
             <div className="button">
                 <a className="navigation" href="/admission"><NavigationButton /></a>
             </div>
-            {/* <footer>
-                <h6>Resources:</h6>
-                <a href="http://www.collegeforalltexans.com/index.cfm?objectid=6316E4DD-C14F-738B-0D78B8A1D99D9DC8">CollegeforAllTexas</a>
-            </footer> */}
         </div>
     )
 }
