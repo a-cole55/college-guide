@@ -1,4 +1,7 @@
-import NavigationButton from "./Button"
+import NavigationButton from "./Button";
+import "../components/Resources.css";
+
+
 export default function Resources(){
     return(
         <div className="resources">

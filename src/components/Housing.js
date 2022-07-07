@@ -1,4 +1,7 @@
-import NavigationButton from "./Button"
+import NavigationButton from "./Button";
+import "../components/Housing.css";
+
+
 export default function Housing(){
     return(
         <div className="housing">

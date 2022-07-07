@@ -1,4 +1,6 @@
-import NavigationButton from "./Button"
+import NavigationButton from "./Button";
+import "../components/FinancialAid.css";
+
 export default function FinancialAid(){
     return(
         <div className="finaid">
