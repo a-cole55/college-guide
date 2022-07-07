@@ -1,6 +1,6 @@
 import NavigationButton from "./Button";
-import "../components/ChooseCollege.css"
-import ChooseCollegeImage from "../assets/chooseCollege-flipped.jpg"
+import "../components/ChooseCollege.css";
+import ChooseCollegeImage from "../assets/chooseCollege-flipped.jpg";
 
 export default function ChooseCollege(){
     return(
