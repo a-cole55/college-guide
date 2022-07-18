@@ -1,3 +1,25 @@
+College Guide
+
+College Guide is a passion project that encompasses the past decade of my life in higher education. As a college advisor, I have counseled countless students on how to navigate college to the point that I can recall this information in my sleep. As a final way to give back to first-generation college students, I decided to create a college guide with key points I've learned over the years.
+
+Link to project: http://recruiters-love-seeing-live-demos.com/
+
+alt tag
+
+How It's Made:
+Tech used: React, NodeJS, Express, MongoDB
+
+Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+
+Optimizations
+(optional)
+
+Lessons Learned:
+On this project I learned the importance of Links in React. I like that it speeds up performance by not having to send an entire new http request. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
