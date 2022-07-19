@@ -1,5 +1,6 @@
 import NavigationButton from "./Button";
 import "../components/FinancialAid.css";
+import Money from "../assets/money.gif"
 
 export default function FinancialAid(){
     return(
@@ -17,6 +18,7 @@ export default function FinancialAid(){
                 the amount of financial aid you receive as some awards (such as grants) are awarded 
                 on a first-come, first-serve basis (excluding the pell grant).
             </p>
+            <img src={Money} alt="money animation"></img>
             <h2>Scholarships</h2>
             <p>Scholarships are free money, that does not have to be repaid. Some scholarships are 
                 merit based (ie. academic or athletic performance), some are financial need based, and some are awarded based on a lottery
