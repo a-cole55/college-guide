@@ -4,7 +4,7 @@ export default function NavBar(){
     return(
         <header className="App-header">
         <nav>
-          <a href="/"><img src="" alt="logo"></img></a>
+          {/* <a href="/"><img src="" alt="logo"></img></a> */}
           <ul className="mainNav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/choose">Choosing a College</Link></li>

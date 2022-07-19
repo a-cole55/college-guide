@@ -80,16 +80,18 @@ button {
   transition: all .2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00;
+  background: #00ACBA;
   border: 1px solid transparent;
   display: flex;
   align-items: center;
   font-size: 15px;
   height:4em;
+  color:white;
  }
  
  button:hover {
-  background: #a6c900;
+  background: #f18352;
+  color:black;
  }
  
  button > svg {
