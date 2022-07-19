@@ -1,11 +1,18 @@
 import NavigationButton from "./Button";
 import "../components/FinancialAid.css";
-import Money from "../assets/money.gif"
+import Money from "../assets/moneyImg.png";
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom"
 
 export default function FinancialAid(){
     return(
-        <div className="finaid">
+        <motion.div className="finaid"
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0, duration: {transition: 0.05}}}>
             <h1 className="pageTitle">Paying for College</h1>
+            <div className="content">
+                <div className="info">
             <p>Typically the cost of a college education is the most important deciding factors when
                 determining which college to attend. Tuition, textbooks, and housing costs can quickly
                 add up. Financial aid is a resource to help families reduce the financial burden of 
@@ -90,9 +97,11 @@ export default function FinancialAid(){
             <li><strong>Former Foster Care Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=551">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=551</a></li>
             <li><strong>Military Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=591">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=591</a></li>
             <li><strong>Blind or Deaf Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=547">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=547</a></li>
-            <div className="button">
-            <a className="navigation" href="/housing"><NavigationButton /></a>
             </div>
-        </div>
+            <div className="button">
+            <Link className="navigation" to="/housing"><NavigationButton /></Link>
+            </div>
+            </div>
+        </motion.div>
     )
 }

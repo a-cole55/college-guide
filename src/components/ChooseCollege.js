@@ -1,11 +1,18 @@
 import NavigationButton from "./Button";
 import "../components/ChooseCollege.css";
 import ChooseCollegeImage from "../assets/chooseCollege-flipped.jpg";
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom"
 
 export default function ChooseCollege(){
     return(
-        <div className="chooseCollege">
+        <motion.div className="chooseCollege"
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}>
             <h1 className="pageTitle">Choosing the Best College for You</h1>
+            <div className="content">
+                <div className="info">
             <p>Deciding which college to spend your next 2-4 years at is a HUGE decision. 
                 There are so many factors to consider that can impact your college experience, such as admission requirements, costs, majors, etc. 
                 but that's why we're here. I recommend using a <a href="https://www.excelstemplates.com/download?pid=20&tid=12">College Comparison Worksheet</a> similar to this one
@@ -61,9 +68,11 @@ export default function ChooseCollege(){
             <li><strong>College Comparison Worksheet: </strong><a href="https://www.excelstemplates.com/download?pid=20&tid=12">https://www.excelstemplates.com/download?pid=20&tid=12</a></li>
             <li><strong>College Comparison Template (Online and Free): </strong><a href="https://www.act.org/content/act/en/students-and-parents/college-planning-resources/paying-for-college/estimating-the-cost-of-college.html">
             https://www.act.org/content/act/en/students-and-parents/college-planning-resources/</a></li>
-            <div className="button">
-                <a className="navigation" href="/admission"><NavigationButton /></a>
             </div>
-        </div>
+            <div className="button">
+                <Link className="navigation" to="/admission"><NavigationButton /></Link>
+            </div>
+            </div>
+        </motion.div>
     )
 }

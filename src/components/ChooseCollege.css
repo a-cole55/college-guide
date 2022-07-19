@@ -22,3 +22,11 @@ h2{
 h4{
     margin-bottom: 5px;
 }
+.content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info{
+    width:100%
+}

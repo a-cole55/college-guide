@@ -3,11 +3,18 @@ import SearchBar from "./SearchBar";
 import CollegeData from "./CollegeData.json";
 import application from "../assets/application.jpg";
 import "../components/Admission.css";
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom"
 
 export default function Admission(){
     return(
-        <div className="admissions">
+        <motion.div className="admissions"
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 , duration: {transition: 0.05}}}>
             <h1 className="pageTitle">Applying to College</h1>
+            <div className="content">
+                <div className="info">
             <p>Now that you've narrowed down your college choices to 3-5 schools, it's time to prepare for college admission. Here is a general list of steps that you will need to take in order to be
                 admitted into a school. <strong>Please note: the admission process can vary from school to school so it's important to pay close attention to 
                 application deadlines, requirements, etc.</strong></p>
@@ -44,11 +51,12 @@ export default function Admission(){
             <li><strong>College Application Fee Waiver: </strong><a href="https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver">https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver</a></li>
             <li><strong>SAT/ ACT Fee Waiver</strong>, visit here for <a href="https://satsuite.collegeboard.org/sat/registration/fee-waivers">SAT</a> or <a href="https://www.act.org/content/act/en/products-and-services/the-act/registration/fees/fee-waivers.html">ACT</a>.</li>
             <li><strong>College for All Texans: </strong><a href="http://www.collegeforalltexans.com/index.cfm?objectid=6316E4DD-C14F-738B-0D78B8A1D99D9DC8">http://www.collegeforalltexans.com</a></li>
-            
-            <div className="button">
-            <a className="navigation" href="/finaid"><NavigationButton /></a>
             </div>
-        </div>
+            <div className="button">
+            <Link className="navigation" to="/finaid"><NavigationButton /></Link>
+            </div>
+            </div>
+        </motion.div>
 
     )
 }

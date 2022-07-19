@@ -1,11 +1,18 @@
 import NavigationButton from "./Button";
 import "../components/Housing.css";
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom"
 
 
 export default function Housing(){
     return(
-        <div className="housing">
+        <motion.div className="housing"
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0, duration: {transition: 0.05}}}>
             <h1 className="pageTitle">Housing</h1>
+            <div className="content">
+                <div className="info">
             <p>Deciding whether to live on-campus or off-campus will be another decision for you and your family to make.
                 Some schools require all first-year students to live on-campus, so if this is the case for you, you can move
                 on to the "costs" section below to see what costs are associated with living on campus. If you need to decide
@@ -42,10 +49,12 @@ export default function Housing(){
                 you would have if living on campus BUT you may save on housing costs by living off campus and splitting housing costs with
                 a roommate. There's no right or wrong answer when deciding whether to live on-campus or not, it's only important that you
                 do what's best for you.            </p>
+                </div>
             <div className="button">
-            <a className="navigation" href="/resources"><NavigationButton /></a>
+            <Link className="navigation" to="/resources"><NavigationButton /></Link>
             </div>
-        </div>
+            </div>
+        </motion.div>
 
     )
 }
