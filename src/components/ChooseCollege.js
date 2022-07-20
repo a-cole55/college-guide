@@ -9,7 +9,8 @@ export default function ChooseCollege(){
         <motion.div className="chooseCollege"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}>
+        exit={{ opacity: 0 }}
+        transition={{duration: 1}}>
             <h1 className="pageTitle">Choosing the Best College for You</h1>
             <div className="content">
                 <div className="info">

@@ -9,7 +9,8 @@ export default function Housing(){
         <motion.div className="housing"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0, duration: {transition: 0.05}}}>
+        exit={{ opacity: 0}}
+        duration= {{transition: 1}}>
             <h1 className="pageTitle">Housing</h1>
             <div className="content">
                 <div className="info">

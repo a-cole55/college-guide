@@ -9,7 +9,8 @@ export default function Home(){
         className="home"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0}}>
+        exit={{ opacity: 0}}
+        transition={{duration: 1}}>
         <div className="homeText">
           <h1>College Guide</h1>
           <span className="logo">If you can dream it, you can achieve it.</span>

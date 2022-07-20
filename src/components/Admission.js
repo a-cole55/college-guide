@@ -11,7 +11,8 @@ export default function Admission(){
         <motion.div className="admissions"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 , duration: {transition: 0.05}}}>
+        exit={{ opacity: 0 }}
+        transition={{duration: 1}}>
             <h1 className="pageTitle">Applying to College</h1>
             <div className="content">
                 <div className="info">
