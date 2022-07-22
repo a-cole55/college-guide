@@ -64,7 +64,7 @@ export default function EmailForm(props){
                 />
 
                 <div style={styles.topText}>
-                    Welcome to my <br /> support 👋
+                    Welcome to the <br /> College Support Portal👋
                 </div>
 
                 <form 
