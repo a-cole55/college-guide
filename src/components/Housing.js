@@ -3,6 +3,7 @@ import "../components/Housing.css";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom"
 
+const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
 
 export default function Housing(){
     return(
@@ -10,7 +11,7 @@ export default function Housing(){
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0}}
-        duration= {{transition: 1}}>
+        duration= {transition}>
             <h1 className="pageTitle">Housing</h1>
             <div className="content">
                 <div className="info">

@@ -4,13 +4,15 @@ import Money from "../assets/moneyImg.png";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom"
 
+const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
+
 export default function FinancialAid(){
     return(
         <motion.div className="finaid"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        duration= {{transition: 1}}>
+        duration= {transition}>
             <h1 className="pageTitle">Paying for College</h1>
             <div className="content">
                 <div className="info">

@@ -4,7 +4,9 @@ import CollegeData from "./CollegeData.json";
 import application from "../assets/application.jpg";
 import "../components/Admission.css";
 import {motion} from "framer-motion";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+
+const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
 
 export default function Admission(){
     return(
@@ -12,7 +14,7 @@ export default function Admission(){
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{duration: 1}}>
+        transition={transition}>
             <h1 className="pageTitle">Applying to College</h1>
             <div className="content">
                 <div className="info">

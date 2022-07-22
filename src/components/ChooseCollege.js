@@ -4,13 +4,15 @@ import ChooseCollegeImage from "../assets/chooseCollege-flipped.jpg";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom"
 
+const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
+
 export default function ChooseCollege(){
     return(
         <motion.div className="chooseCollege"
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{duration: 1}}>
+        transition={transition}>
             <h1 className="pageTitle">Choosing the Best College for You</h1>
             <div className="content">
                 <div className="info">

@@ -73,7 +73,7 @@ span{
   font-style: italic;
 }
 /* From uiverse.io by @alexmaracinaru */
-button {
+#navBTN {
   cursor: pointer;
   font-weight: 700;
   font-family: Helvetica,"sans-serif";
@@ -128,4 +128,9 @@ button {
  }
  .collegeSearchBar label{
   font-weight: bold;
+ }
+
+ .chatBtn{
+  background-image: url(./assets/customerSupport2.jpg);
+
  }

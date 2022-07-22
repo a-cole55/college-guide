@@ -2,6 +2,7 @@ import NavigationButton from "./Button";
 import "../components/Resources.css";
 import {motion} from "framer-motion"
 
+const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
 
 export default function Resources(){
     return(
@@ -9,7 +10,7 @@ export default function Resources(){
         initial={{ opacity: 0}}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0}}
-        transition={{duration: 1}}>
+        transition={transition}>
             <h1 className="pageTitle">College Resources</h1>
             <div className="content">
                 <div className="info">
