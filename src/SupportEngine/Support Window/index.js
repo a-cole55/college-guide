@@ -3,6 +3,8 @@ import { styles } from "../styles";
 import EmailForm from "./EmailForm";
 
 const SupportWindow = props => {
+//manage whether email form is visible
+
     return (
         <div 
             className='transition-5'

@@ -92,7 +92,7 @@ export const styles = {
         backgroundColor: 'white',
     },
     loadingIcon: { 
-        color: '#7a39e0', 
+        color: '#00ACBA', 
         position: 'absolute', 
         top: 'calc(50% - 51px)', 
         left: 'calc(50% - 51px)',  

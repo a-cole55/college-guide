@@ -48,8 +48,8 @@ export default function EmailForm(props){
                         zIndex: loading ? '10' : '-1',
                         opacity: loading ? '1' : '0',
                         fontSize: '82px',
-                        top: 'calc(50% - 41px)', 
-                        left: 'calc(50% - 41px)',  
+                        top: 'calc(50% - 70px)', 
+                        left: 'calc(50% - 250px)',  
                     }
                 }}
             />
