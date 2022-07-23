@@ -1,18 +1,18 @@
 College Guide
 
-College Guide is a passion project that encompasses the past decade of my life in higher education. As a college advisor, I have counseled countless students on how to navigate college to the point that I can recall this information in my sleep. As a final way to give back to first-generation college students, I decided to create a college guide with key points I've learned over the years.
+College Guide is a passion project that encompasses the past decade of my life in higher education. As a college advisor, I have counseled countless students on how to navigate college to the point that I can recall this information in my sleep. As another way to give back to first-generation college students and spread my knowledge, I've decided to create a college guide with key points about college that I've learned over the years.
 
-Link to project: http://recruiters-love-seeing-live-demos.com/
+https://college-guide.netlify.app/
 
-alt tag
+
 
 How It's Made:
-Tech used: React, NodeJS, Express, MongoDB
+Tech used: React, Framer Motion, NodeJS, Express, MongoDB
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This site initially began as a simple information web application to share college related information. After the information was added, I wanted to make it a more custom experience so I added the chat component. This will allow students to chat with me directly and ask questions about questions. Eventually I would like to add a login feature and maybe allow users to connect or allow students to track their progress in completing the required steps for getting into college.
 
 Optimizations
-(optional)
+I'm currently in the process of building out the chat component, which will allow students to chat with me directly to address additional, more personalized questions they may have. As site traffic picks up, I may integrate ChatEngine.io into this project to allow for a more seamless user experience (and convenience for me as a developer). ChatEngine.io streamlines the chat experience, sends email notifications of new chats, etc. Also, I may add a "networking" component for students to connect with one another or other higher ed professionals.
 
 Lessons Learned:
 On this project I learned the importance of Links in React. I like that it speeds up performance by not having to send an entire new http request. 
