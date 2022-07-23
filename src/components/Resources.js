@@ -1,6 +1,7 @@
 import NavigationButton from "./Button";
 import "../components/Resources.css";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
 
 const transition = {duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96]};
 
@@ -22,9 +23,11 @@ export default function Resources(){
             <h2>Career Counseling</h2>
             <h2>Transfer Resources</h2>
             <h2>Campus Organizations</h2> */}
-            </div>
+
             <div className="button">
-                <NavigationButton prop="/choose"/>
+                <Link className="navigation" to="/"><NavigationButton /></Link>
+            </div>
+
             </div>
             </div>
         </motion.div>

@@ -51,10 +51,13 @@ export default function Housing(){
                 you would have if living on campus BUT you may save on housing costs by living off campus and splitting housing costs with
                 a roommate. There's no right or wrong answer when deciding whether to live on-campus or not, it's only important that you
                 do what's best for you.            </p>
+                
+
+                <div className="button">
+                    <Link className="navigation" to="/resources"><NavigationButton /></Link>
                 </div>
-            <div className="button">
-            <Link className="navigation" to="/resources"><NavigationButton /></Link>
-            </div>
+                
+                </div>
             </div>
         </motion.div>
 

@@ -54,9 +54,11 @@ export default function Admission(){
             <li><strong>College Application Fee Waiver: </strong><a href="https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver">https://www.nerdwallet.com/article/loans/student-loans/college-application-fee-waiver</a></li>
             <li><strong>SAT/ ACT Fee Waiver</strong>, visit here for <a href="https://satsuite.collegeboard.org/sat/registration/fee-waivers">SAT</a> or <a href="https://www.act.org/content/act/en/products-and-services/the-act/registration/fees/fee-waivers.html">ACT</a>.</li>
             <li><strong>College for All Texans: </strong><a href="http://www.collegeforalltexans.com/index.cfm?objectid=6316E4DD-C14F-738B-0D78B8A1D99D9DC8">http://www.collegeforalltexans.com</a></li>
-            </div>
+            
             <div className="button">
             <Link className="navigation" to="/finaid"><NavigationButton /></Link>
+            </div>
+            
             </div>
             </div>
         </motion.div>

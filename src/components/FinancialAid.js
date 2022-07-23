@@ -100,9 +100,13 @@ export default function FinancialAid(){
             <li><strong>Former Foster Care Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=551">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=551</a></li>
             <li><strong>Military Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=591">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=591</a></li>
             <li><strong>Blind or Deaf Tuition Exemption </strong><a href="http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=547">http://www.collegeforalltexans.com/apps/financialaid/tofa2.cfm?ID=547</a></li>
-            </div>
+            
+
             <div className="button">
             <Link className="navigation" to="/housing"><NavigationButton /></Link>
+            </div>
+
+            
             </div>
             </div>
         </motion.div>

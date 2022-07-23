@@ -25,7 +25,7 @@ h4{
 .content{
     display:flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
 .info{
     width:100%

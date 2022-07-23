@@ -71,10 +71,13 @@ export default function ChooseCollege(){
             <li><strong>College Comparison Worksheet: </strong><a href="https://www.excelstemplates.com/download?pid=20&tid=12">https://www.excelstemplates.com/download?pid=20&tid=12</a></li>
             <li><strong>College Comparison Template (Online and Free): </strong><a href="https://www.act.org/content/act/en/students-and-parents/college-planning-resources/paying-for-college/estimating-the-cost-of-college.html">
             https://www.act.org/content/act/en/students-and-parents/college-planning-resources/</a></li>
-            </div>
+
             <div className="button">
-                <Link className="navigation" to="/admission"><NavigationButton /></Link>
+                <Link className="navigation" to="/admission"><NavigationButton/></Link>
             </div>
+            </div>
+
+            
             </div>
         </motion.div>
     )
