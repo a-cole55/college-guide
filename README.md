@@ -4,6 +4,7 @@ College Guide is a passion project that encompasses the past decade of my life i
 
 https://college-guide.netlify.app/
 
+![college-guide](https://user-images.githubusercontent.com/94746691/180618114-e395d228-7626-4477-bd9e-b06f0d57d0d0.jpg)
 
 
 How It's Made:
