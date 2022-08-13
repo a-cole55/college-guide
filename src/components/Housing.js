@@ -15,7 +15,7 @@ export default function Housing(){
             <h1 className="pageTitle">Housing</h1>
             <div className="content">
                 <div className="info">
-            <p>Deciding whether to live on or off-campus is another decision for you to make.
+            <p>Deciding whether to live on or off-campus is another big decision for you to make.
                 Some schools require all first-year students to live on-campus, so if this is the case for you, fortunately
                 this decision has been made for you and you can move on to the "costs" section below to see what costs are 
                 associated with living on-campus. If you need to decide which housing option is best for you, then stick
